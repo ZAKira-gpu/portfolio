@@ -76,14 +76,9 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "group/bento relative row-span-1 flex flex-col justify-between space-y-4 overflow-hidden rounded-3xl border border-white/[0.1] shadow-input transition duration-200 hover:shadow-xl dark:shadow-none",
+        "group/bento relative row-span-1 flex flex-col justify-between space-y-4 overflow-hidden rounded-3xl border border-white/[0.1] bg-white shadow-input transition duration-200 hover:shadow-xl dark:bg-black dark:border-white/[0.2] glass-morphism glow-blue floating-card",
         className
       )}
-      style={{
-        background: "rgb(4,7,29)",
-        backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-      }}
     >
       <div className={cn("h-full", id === 6 && "flex justify-center")}>
         <div className="absolute h-full w-full">
@@ -123,11 +118,11 @@ export const BentoGridItem = ({
             titleClassName
           )}
         >
-          <div className="z-10 font-sans text-sm font-extralight text-[#c1c2d3] md:text-xs lg:text-base">
+          <div className="z-10 font-sans text-sm font-extralight text-[#c1c2d3] dark:text-[#c1c2d3] md:text-xs lg:text-base">
             {description}
           </div>
 
-          <div className="z-10 max-w-96 font-sans text-lg font-bold lg:text-3xl">
+          <div className="z-10 max-w-96 font-sans text-lg font-bold text-neutral-600 dark:text-neutral-200 lg:text-3xl">
             {title}
           </div>
 
@@ -139,21 +134,21 @@ export const BentoGridItem = ({
                 {techStack.stack1.map((item) => (
                   <span
                     key={item}
-                    className="rounded-lg bg-[#10132e] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
+                    className="rounded-lg glass-morphism glow-cyan px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
                   >
                     {item}
                   </span>
                 ))}
 
-                <span className="rounded-lg bg-[#10132e] px-3 py-4 text-center" />
+                <span className="rounded-lg glass-morphism px-3 py-4 text-center" />
               </div>
 
               <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="rounded-lg bg-[#10132e] px-3 py-4 text-center" />
+                <span className="rounded-lg glass-morphism px-3 py-4 text-center" />
                 {techStack.stack2.map((item) => (
                   <span
                     key={item}
-                    className="rounded-lg bg-[#10132e] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
+                    className="rounded-lg glass-morphism glow-cyan px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
                   >
                     {item}
                   </span>

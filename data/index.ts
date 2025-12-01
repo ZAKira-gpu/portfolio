@@ -40,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "AI Engineer specializing in Computer Vision, NLP & LLMs",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -51,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Building intelligent solutions with PyTorch & TensorFlow",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -74,21 +74,21 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "FigPro - Collaborative Design Tool",
-    des: "A collaborative design tool with real-time collaboration, vector editing, and a responsive UI.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://clone-figmaa.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/figma-clone",
+    title: "Hoopoe App - AI-Powered News App",
+    des: "A daily news application that delivers curated articles enhanced and powered by AI for personalized content discovery.",
+    img: "/hoopoe.png",
+    iconLists: ["/flutter.svg", "/fastapi.svg", "/supabase.svg", "/sql.svg", "/rive.svg"],
+    link: "#", // Will be used for video popup
+    sourceCode: "https://github.com/ZAKira-gpu/Hoopoe-App",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://clone-yoom.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/zoom-clone",
+    title: "Orama - AI-Powered Smart Surveillance System",
+    des: "Smart surveillance system powered by AI that allows you to monitor your surveillance cameras with cloud storage and real-time alerts.",
+    img: "/orama.png",
+    iconLists: ["/yolo.svg", "/flutter.svg", "/firebasel.svg", "/sql.svg", "/tensorflow.svg", "/fastapi.svg"],
+    link: "#",
+    sourceCode: "https://github.com/ZAKira-gpu",
   },
   {
     id: 3,
@@ -113,28 +113,28 @@ export const projects = [
 export const testimonials = [
   {
     quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Martin Xang",
+    title: "Fiverr Client",
   },
   {
     quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Martin Xang",
+    title: "Fiverr Client",
   },
   {
     quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Martin Xang",
+    title: "Fiverr Client",
   },
   {
     quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Martin Xang",
+    title: "Fiverr Client",
   },
   {
     quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Martin Xang",
+    title: "Fiverr Client",
   },
 ] as const;
 
@@ -147,15 +147,15 @@ export const companies = [
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Firebase",
+    img: "/firebase.svg",
+    nameImg: "/firebase.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Vercel",
+    img: "/vercel.svg",
+    nameImg: "/vercel.svg",
   },
   {
     id: 4,
@@ -174,29 +174,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "AI Trainer Specialist",
+    desc: "Specialized in training and fine-tuning large language models and AI systems, focusing on data annotation, model evaluation, and performance optimization.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "AI Engineer - Mobile Development",
+    desc: "Designed and developed AI-powered mobile applications for both iOS & Android platforms using Flutter and TensorFlow.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance AI Engineer",
+    desc: "Led the development of AI-powered mobile applications, integrating computer vision and NLP models from concept to deployment.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "AI Engineer - Computer Vision",
+    desc: "Developed and deployed computer vision models using PyTorch and OpenCV for real-time object detection and image processing.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -206,21 +206,21 @@ export const socialMedia = [
   {
     name: "GitHub",
     img: "/git.svg",
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/ZAKira-gpu",
   },
   {
     name: "Twitter",
     img: "/twit.svg",
-    link: "https://twitter.com/TechnicalShubam",
+    link: "https://x.com/CpuZaki17831",
   },
   {
     name: "LinkedIn",
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/mohammed-chaib-draa-855535285",
   },
 ] as const;
 
 export const techStack = {
-  stack1: ["React.js", "Next.js", "Typescript"],
-  stack2: ["Vue.js", "AWS", "MongoDB"],
+  stack1: ["Flutter", "PyTorch", "TensorFlow"],
+  stack2: ["Scikit-learn", "OpenCV", "NLP"],
 } as const;

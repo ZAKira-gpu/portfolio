@@ -26,19 +26,50 @@ const config = {
       colors: {
         black: {
           DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
-          300: "rgba(255, 255, 255, 0.125)",
+          100: "#0a0a1f",
+          200: "rgba(10, 10, 31, 0.8)",
+          300: "rgba(255, 255, 255, 0.1)",
         },
         white: {
           DEFAULT: "#FFF",
-          100: "#BEC1DD",
-          200: "#C1C2D3",
+          100: "#E0E7FF",
+          200: "#C7D2FE",
         },
         blue: {
-          "100": "#E4ECFF",
+          "50": "#EEF2FF",
+          "100": "#E0E7FF",
+          "200": "#C7D2FE",
+          "300": "#A5B4FC",
+          "400": "#818CF8",
+          "500": "#6366F1",
+          "600": "#4F46E5",
+          "700": "#4338CA",
+          "800": "#3730A3",
+          "900": "#312E81",
+          "950": "#1E1B4B",
         },
-        purple: "#CBACF9",
+        purple: {
+          "50": "#FAF5FF",
+          "100": "#F3E8FF",
+          "200": "#E9D5FF",
+          "300": "#D8B4FE",
+          "400": "#C084FC",
+          "500": "#A855F7",
+          "600": "#9333EA",
+          "700": "#7E22CE",
+          "800": "#6B21A8",
+          "900": "#581C87",
+          "950": "#3B0764",
+        },
+        cyan: {
+          "400": "#22D3EE",
+          "500": "#06B6D4",
+        },
+        glow: {
+          blue: "#4F46E5",
+          purple: "#9333EA",
+          cyan: "#06B6D4",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -143,6 +174,76 @@ const config = {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
+        float: {
+          "0%, 100%": {
+            transform: "translateY(0px)",
+          },
+          "50%": {
+            transform: "translateY(-20px)",
+          },
+        },
+        floatSlow: {
+          "0%, 100%": {
+            transform: "translateY(0px) translateX(0px)",
+          },
+          "33%": {
+            transform: "translateY(-15px) translateX(10px)",
+          },
+          "66%": {
+            transform: "translateY(-5px) translateX(-10px)",
+          },
+        },
+        drift: {
+          "0%, 100%": {
+            transform: "translateX(0px) translateY(0px)",
+          },
+          "25%": {
+            transform: "translateX(10px) translateY(-10px)",
+          },
+          "50%": {
+            transform: "translateX(-5px) translateY(-20px)",
+          },
+          "75%": {
+            transform: "translateX(-10px) translateY(-10px)",
+          },
+        },
+        glowPulse: {
+          "0%, 100%": {
+            boxShadow: "0 0 20px rgba(79, 70, 229, 0.5), 0 0 40px rgba(147, 51, 234, 0.3)",
+          },
+          "50%": {
+            boxShadow: "0 0 30px rgba(79, 70, 229, 0.8), 0 0 60px rgba(147, 51, 234, 0.5)",
+          },
+        },
+        rotate3d: {
+          "0%": {
+            transform: "perspective(1000px) rotateY(0deg) rotateX(0deg)",
+          },
+          "50%": {
+            transform: "perspective(1000px) rotateY(5deg) rotateX(2deg)",
+          },
+          "100%": {
+            transform: "perspective(1000px) rotateY(0deg) rotateX(0deg)",
+          },
+        },
+        fadeIn: {
+          from: {
+            opacity: "0",
+          },
+          to: {
+            opacity: "1",
+          },
+        },
+        slideUp: {
+          from: {
+            opacity: "0",
+            transform: "translateY(20px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -156,6 +257,13 @@ const config = {
         fifth: "moveInCircle 20s ease infinite",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        float: "float 6s ease-in-out infinite",
+        floatSlow: "floatSlow 8s ease-in-out infinite",
+        drift: "drift 10s ease-in-out infinite",
+        glowPulse: "glowPulse 3s ease-in-out infinite",
+        rotate3d: "rotate3d 8s ease-in-out infinite",
+        fadeIn: "fadeIn 0.3s ease-out",
+        slideUp: "slideUp 0.4s ease-out",
       },
     },
   },

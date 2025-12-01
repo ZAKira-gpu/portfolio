@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa6";
@@ -5,10 +7,13 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { MagicButton } from "@/components/ui/magic-button";
 import { links } from "@/config";
 import { socialMedia } from "@/data";
+import { useLanguage } from "@/context/LanguageContext";
 
 export const Footer = () => {
+  const { t } = useLanguage();
+
   return (
-    <footer id="contact" className="mb-[100px] w-full pb-10 md:mb-auto">
+    <footer id="contact" className="mb-[100px] w-full pb-10 md:mb-auto" suppressHydrationWarning>
       <div className="absolute -bottom-72 left-0 min-h-96 w-full">
         <Image
           src="/footer-grid.svg"
@@ -21,45 +26,25 @@ export const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          {t("footer.title")}
         </h1>
 
-        <p className="my-5 text-center text-white-200 md:mt-10">
-          Reach out to me today and let&apos;s discuss how I can help your
-          achieve your goals.
+        <p className="my-5 text-center text-neutral-600 dark:text-white-200 md:mt-10">
+          {t("footer.description")}
         </p>
 
-        <Link
-          href={`mailto:${links.ownerEmail}`}
-          target="_blank"
-          rel="noreferrer noopener"
-          className="md:mt-10"
-        >
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-            asChild
-          />
-        </Link>
+        <MagicButton
+          title={t("footer.cta")}
+          icon={<FaLocationArrow />}
+          position="right"
+          handleClick={() => window.location.href = `mailto:${links.ownerEmail}`}
+          otherClasses="md:mt-10 animate-float"
+        />
       </div>
 
       <div className="relative z-[999] mt-16 flex flex-col items-center justify-between md:flex-row">
         <p className="text-sm font-light md:text-base md:font-normal">
-          Copyright &copy; {new Date().getFullYear()}{" "}
-          <Link
-            href="https://sanidhy.me"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="text-purple"
-          >
-            Sanidhya
-          </Link>{" "}
-          |{" "}
-          <Link href={links.sourceCode} className="underline">
-            Source Code
-          </Link>
+          {t("footer.copyright")}
         </p>
 
         <div className="flex items-center gap-6 md:gap-3">
@@ -69,7 +54,7 @@ export const Footer = () => {
               href={profile.link}
               target="_blank"
               rel="noreferrer noopener"
-              className="saturate-180 flex size-10 items-center justify-center rounded-lg border border-black-300 bg-black-200 bg-opacity-75 backdrop-blur-lg backdrop-filter"
+              className="saturate-180 flex size-10 items-center justify-center rounded-lg glass-morphism glow-blue backdrop-blur-lg backdrop-filter hover:scale-110 transition-transform duration-300"
               title={profile.name}
             >
               <Image

@@ -1,3 +1,5 @@
+"use client";
+
 import { cn } from "@/lib/utils";
 
 type MagicButtonProps = {
@@ -21,16 +23,15 @@ export const MagicButton = ({
     <button
       className={cn(
         "relative inline-flex h-12 w-full overflow-hidden rounded-lg p-[1px] focus:outline-none md:w-60",
-        !asChild && "md:mt-10"
+        otherClasses
       )}
       onClick={handleClick}
       tabIndex={asChild ? -1 : undefined}
     >
-      <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+      <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#4F46E5_0%,#9333EA_50%,#06B6D4_100%)]" />
       <span
         className={cn(
-          "inline-flex h-full w-full cursor-pointer items-center justify-center gap-2 rounded-lg bg-slate-950 px-7 text-sm font-medium text-white backdrop-blur-3xl",
-          otherClasses
+          "inline-flex h-full w-full cursor-pointer items-center justify-center gap-2 rounded-lg glass-morphism px-7 text-sm font-medium text-neutral-700 dark:text-white backdrop-blur-3xl hover:scale-105 transition-transform duration-300"
         )}
       >
         {position === "left" && icon}

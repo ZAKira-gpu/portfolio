@@ -5,19 +5,22 @@ import { useState } from "react";
 
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 import { MagicButton } from "@/components/ui/magic-button";
+import { useLanguage } from "@/context/LanguageContext";
 
 export const Approach = () => {
+  const { t } = useLanguage();
+
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        {t("approach.title")}
       </h1>
 
       <div className="my-20 flex flex-col items-center justify-center gap-4 lg:flex-row">
         <Card
-          title="Planning & Strategy"
-          icon={<MagicButton title="Phase 1" asChild />}
-          description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+          title={t("approach.1.title")}
+          icon={<MagicButton title={t("approach.phase1")} asChild />}
+          description={t("approach.1.desc")}
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,9 +29,9 @@ export const Approach = () => {
         </Card>
 
         <Card
-          title="Deployment & Progress Update"
-          icon={<MagicButton title="Phase 2" asChild />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+          title={t("approach.2.title")}
+          icon={<MagicButton title={t("approach.phase2")} asChild />}
+          description={t("approach.2.desc")}
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -42,9 +45,9 @@ export const Approach = () => {
         </Card>
 
         <Card
-          title="Development & Launch"
-          icon={<MagicButton title="Phase 3" asChild />}
-          description="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+          title={t("approach.3.title")}
+          icon={<MagicButton title={t("approach.phase3")} asChild />}
+          description={t("approach.3.desc")}
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -101,9 +104,6 @@ const Card = ({ title, description, icon, children }: CardProps) => {
 
         <p
           className="relative z-10 mt-4 text-sm font-bold text-black opacity-0 transition  duration-200 group-hover/canvas-card:-translate-y-2 group-hover/canvas-card:text-white group-hover/canvas-card:opacity-100 dark:text-white"
-          style={{
-            color: "#e4ecff",
-          }}
         >
           {description}
         </p>
