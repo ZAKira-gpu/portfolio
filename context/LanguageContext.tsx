@@ -60,8 +60,8 @@ export const translations = {
         "project.1.desc": "A daily news application that delivers curated articles enhanced and powered by AI for personalized content discovery.",
         "project.2.title": "Orama - AI-Powered Smart Surveillance System",
         "project.2.desc": "Smart surveillance system powered by AI that allows you to monitor your surveillance cameras with cloud storage and real-time alerts.",
-        "project.3.title": "AI Image SaaS - Canva Application",
-        "project.3.desc": "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+        "project.3.title": "Optimizer App - AI-Powered Optimization Tool",
+        "project.3.desc": "Smart optimization application powered by machine learning that helps analyze and optimize various processes with data-driven insights.",
         "project.4.title": "Animated Apple Iphone 3D Website",
         "project.4.desc": "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
 
@@ -120,8 +120,8 @@ export const translations = {
         "project.1.desc": "تطبيق إخباري يومي يقدم مقالات مختارة ومحسنة بواسطة الذكاء الاصطناعي لاكتشاف محتوى مخصص.",
         "project.2.title": "Orama - نظام مراقبة ذكي مدعوم بالذكاء الاصطناعي",
         "project.2.desc": "نظام مراقبة ذكي مدعوم بالذكاء الاصطناعي يتيح لك مراقبة كاميرات المراقبة الخاصة بك مع التخزين السحابي والتنبيهات في الوقت الفعلي.",
-        "project.3.title": "تطبيق SaaS للصور بالذكاء الاصطناعي - تطبيق Canva",
-        "project.3.desc": "تطبيق برمجيات كخدمة حقيقي بميزات الذكاء الاصطناعي ونظام للمدفوعات والاعتمادات باستخدام أحدث التقنيات.",
+        "project.3.title": "Optimizer - أداة تحسين مدعومة بالذكاء الاصطناعي",
+        "project.3.desc": "تطبيق تحسين ذكي مدعوم بالتعلم الآلي يساعد على تحليل وتحسين العمليات المختلفة برؤى مدفوعة بالبيانات.",
         "project.4.title": "موقع آيفون ثلاثي الأبعاد متحرك",
         "project.4.desc": "إعادة إنشاء موقع Apple iPhone 15 Pro، يجمع بين رسوم GSAP المتحركة وتأثيرات Three.js ثلاثية الأبعاد.",
 

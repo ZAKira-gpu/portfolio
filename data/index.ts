@@ -92,12 +92,12 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://ai-imaginify.netlify.app",
-    sourceCode: "https://github.com/sanidhyy/imaginify",
+    title: "Optimizer App - AI-Powered Optimization Tool",
+    des: "Smart optimization application powered by machine learning that helps analyze and optimize various processes with data-driven insights.",
+    img: "/optimizer.png",
+    iconLists: ["/flutter.svg", "/scikit-learn.svg", "/firebasel.svg", "/sql.svg"],
+    link: "#",
+    sourceCode: "https://github.com/ZAKira-gpu",
   },
   {
     id: 4,
