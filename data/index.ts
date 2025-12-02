@@ -88,6 +88,7 @@ export const projects = [
     img: "/orama.png",
     iconLists: ["/yolo.svg", "/flutter.svg", "/firebasel.svg", "/sql.svg", "/tensorflow.svg", "/fastapi.svg"],
     link: "#",
+    videoUrl: "https://res.cloudinary.com/dv6msjz0a/video/upload/v1764669190/Orama_App_Smart_Surveillance_System_gw27tu.mp4",
     sourceCode: "https://github.com/ZAKira-gpu",
   },
   {
