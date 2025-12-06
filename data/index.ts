@@ -79,6 +79,7 @@ export const projects = [
     img: "/hoopoe.png",
     iconLists: ["/flutter.svg", "/fastapi.svg", "/supabase.svg", "/sql.svg", "/rive.svg"],
     link: "#", // Will be used for video popup
+    videoUrl: "https://res.cloudinary.com/dv6msjz0a/video/upload/v1765058768/hoopoe_app_wh3iiv.mp4",
     sourceCode: "https://github.com/ZAKira-gpu/Hoopoe-App",
   },
   {
