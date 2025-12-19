@@ -6,7 +6,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { Spotlight } from "@/components/ui/spotlight";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { MagicButton } from "@/components/ui/magic-button";
-import { links } from "@/config";
+
 import { useLanguage } from "@/context/LanguageContext";
 
 export const Hero = () => {
