@@ -154,9 +154,14 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
 
     useEffect(() => {
         const savedLang = localStorage.getItem("language") as Language;
-        if (savedLang) {
+        if (savedLang && savedLang === "ar") {
             setLanguage(savedLang);
-            setDirection(savedLang === "ar" ? "rtl" : "ltr");
+            setDirection("rtl");
+        } else {
+            // Always default to English
+            setLanguage("en");
+            setDirection("ltr");
+            localStorage.setItem("language", "en");
         }
     }, []);
 
