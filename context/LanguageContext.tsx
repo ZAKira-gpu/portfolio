@@ -62,8 +62,8 @@ export const translations = {
         "project.2.desc": "Smart surveillance system powered by AI that allows you to monitor your surveillance cameras with cloud storage and real-time alerts.",
         "project.3.title": "Optimizer - AI Habit Tracking App",
         "project.3.desc": "An intelligent habit tracking application that leverages AI to help users build consistency and optimize their daily routines with data-driven insights.",
-        "project.4.title": "Animated Apple Iphone 3D Website",
-        "project.4.desc": "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+        "project.4.title": "Weapons Detection & Annotation",
+        "project.4.desc": "Advanced computer vision project focusing on data annotation and training CNN models for accurate weapon detection systems.",
 
         // Experience
         "exp.1.title": "AI Trainer Specialist",
@@ -122,8 +122,8 @@ export const translations = {
         "project.2.desc": "نظام مراقبة ذكي مدعوم بالذكاء الاصطناعي يتيح لك مراقبة كاميرات المراقبة الخاصة بك مع التخزين السحابي والتنبيهات في الوقت الفعلي.",
         "project.3.title": "Optimizer - تطبيق تتبع العادات بالذكاء الاصطناعي",
         "project.3.desc": "تطبيق ذكي لتتبع العادات يستفيد من الذكاء الاصطناعي لمساعدة المستخدمين على بناء الاستمرارية وتحسين روتينهم اليومي برؤى تعتمد على البيانات.",
-        "project.4.title": "موقع آيفون ثلاثي الأبعاد متحرك",
-        "project.4.desc": "إعادة إنشاء موقع Apple iPhone 15 Pro، يجمع بين رسوم GSAP المتحركة وتأثيرات Three.js ثلاثية الأبعاد.",
+        "project.4.title": "كشف الأسلحة والتعليق التوضيحي",
+        "project.4.desc": "مشروع رؤية حاسوبية متقدم يركز على تعليق البيانات وتدريب نماذج الشبكات العصبية الالتفافية لأنظمة كشف الأسلحة الدقيقة.",
 
         // Experience
         "exp.1.title": "أخصائي تدريب ذكاء اصطناعي",
