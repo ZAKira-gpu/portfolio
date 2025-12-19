@@ -107,7 +107,7 @@ export const projects = [
     title: "Weapons Detection & Annotation",
     des: "Advanced computer vision project focusing on data annotation and training CNN models for accurate weapon detection systems.",
     img: "/weapons.webp",
-    iconLists: ["/tensorflow.svg", "/yolo.svg", "/tail.svg", "/ts.svg"],
+    iconLists: ["/yolo.svg", "/CVAT.svg"],
     link: "https://drive.google.com/file/d/1LmwKtewKWB5fscneubAE0No3_Lg2JQmM/view?usp=drive_link",
     sourceCode: "https://github.com/ZAKira-gpu",
   },
