@@ -90,7 +90,7 @@ export const projects = [
     iconLists: ["/yolo.svg", "/flutter.svg", "/firebasel.svg", "/sql.svg", "/tensorflow.svg", "/fastapi.svg"],
     link: "#",
     videoUrl: "https://res.cloudinary.com/dv6msjz0a/video/upload/v1764669190/Orama_App_Smart_Surveillance_System_gw27tu.mp4",
-    sourceCode: "https://github.com/ZAKira-gpu",
+    sourceCode: "https://github.com/ZAKira-gpu/orama_yolo",
   },
   {
     id: 3,
@@ -100,7 +100,7 @@ export const projects = [
     iconLists: ["/flutter.svg", "/scikit-learn.svg", "/firebasel.svg", "/sql.svg"],
     link: "#",
     videoUrl: "https://res.cloudinary.com/dv6msjz0a/video/upload/Orama_App_Smart_Surveillance_System_1_jyh6hr.mp4",
-    sourceCode: "https://github.com/ZAKira-gpu",
+    sourceCode: "https://github.com/ZAKira-gpu/optimizer_v2",
   },
   {
     id: 4,
