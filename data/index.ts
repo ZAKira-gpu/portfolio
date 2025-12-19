@@ -94,8 +94,8 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Optimizer App - AI-Powered Optimization Tool",
-    des: "Smart optimization application powered by machine learning that helps analyze and optimize various processes with data-driven insights.",
+    title: "Optimizer - AI Habit Tracking App",
+    des: "An intelligent habit tracking application that leverages AI to help users build consistency and optimize their daily routines with data-driven insights.",
     img: "/optimizer.png",
     iconLists: ["/flutter.svg", "/scikit-learn.svg", "/firebasel.svg", "/sql.svg"],
     link: "#",

@@ -60,8 +60,8 @@ export const translations = {
         "project.1.desc": "A daily news application that delivers curated articles enhanced and powered by AI for personalized content discovery.",
         "project.2.title": "Orama - AI-Powered Smart Surveillance System",
         "project.2.desc": "Smart surveillance system powered by AI that allows you to monitor your surveillance cameras with cloud storage and real-time alerts.",
-        "project.3.title": "Optimizer App - AI-Powered Optimization Tool",
-        "project.3.desc": "Smart optimization application powered by machine learning that helps analyze and optimize various processes with data-driven insights.",
+        "project.3.title": "Optimizer - AI Habit Tracking App",
+        "project.3.desc": "An intelligent habit tracking application that leverages AI to help users build consistency and optimize their daily routines with data-driven insights.",
         "project.4.title": "Animated Apple Iphone 3D Website",
         "project.4.desc": "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
 
@@ -120,8 +120,8 @@ export const translations = {
         "project.1.desc": "تطبيق إخباري يومي يقدم مقالات مختارة ومحسنة بواسطة الذكاء الاصطناعي لاكتشاف محتوى مخصص.",
         "project.2.title": "Orama - نظام مراقبة ذكي مدعوم بالذكاء الاصطناعي",
         "project.2.desc": "نظام مراقبة ذكي مدعوم بالذكاء الاصطناعي يتيح لك مراقبة كاميرات المراقبة الخاصة بك مع التخزين السحابي والتنبيهات في الوقت الفعلي.",
-        "project.3.title": "Optimizer - أداة تحسين مدعومة بالذكاء الاصطناعي",
-        "project.3.desc": "تطبيق تحسين ذكي مدعوم بالتعلم الآلي يساعد على تحليل وتحسين العمليات المختلفة برؤى مدفوعة بالبيانات.",
+        "project.3.title": "Optimizer - تطبيق تتبع العادات بالذكاء الاصطناعي",
+        "project.3.desc": "تطبيق ذكي لتتبع العادات يستفيد من الذكاء الاصطناعي لمساعدة المستخدمين على بناء الاستمرارية وتحسين روتينهم اليومي برؤى تعتمد على البيانات.",
         "project.4.title": "موقع آيفون ثلاثي الأبعاد متحرك",
         "project.4.desc": "إعادة إنشاء موقع Apple iPhone 15 Pro، يجمع بين رسوم GSAP المتحركة وتأثيرات Three.js ثلاثية الأبعاد.",
 
